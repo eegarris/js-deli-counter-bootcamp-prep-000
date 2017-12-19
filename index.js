@@ -25,6 +25,6 @@ function currentLine(katzDeliLine) {
      line += (i+1) + ". " + katzDeliLine[i] + ", ";
     }
     line = `${line}` + katzDeliLine.length + ". " + katzDeliLine.pop();
-    return `The line is currently: ${line}`;
+    return `The line is currently:${line}`;
   }
 }
